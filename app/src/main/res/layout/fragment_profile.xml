@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="@dimen/_280sdp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/amit"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_45sdp"
+        android:layout_gravity="center"
+        android:textSize="@dimen/_20sdp"
+        android:paddingLeft="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_60sdp"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        />
+
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_45sdp"
+        android:textSize="@dimen/_20sdp"
+        android:paddingLeft="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+
+        />
+
+
+
+    <Button
+        android:background="@drawable/background_btn"
+        android:id="@+id/button_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="L O G O U T"
+        android:textSize="@dimen/_21sdp"
+        android:layout_marginVertical="@dimen/_20sdp"
+        android:layout_gravity="center"
+        app:layout_constraintEnd_toEndOf="parent">
+    </Button>
+
+</LinearLayout>

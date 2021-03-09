@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_bar"
+    app:startDestination="@id/home_item">
+
+    <fragment
+        android:id="@+id/home_item"
+        android:name="com.example.Amit.ui.fragment.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_home_item_to_details_Fragment"
+            app:destination="@id/details_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cart_item"
+        android:name="com.example.Amit.ui.fragment.cart.CartFragment"
+        android:label="fragment_cart"
+        tools:layout="@layout/fragment_cart" />
+    <fragment
+        android:id="@+id/po"
+        android:name="com.example.Amit.ui.fragment.profile.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/category_item"
+        android:name="com.example.Amit.ui.fragment.category.CategoryFragment"
+        android:label="fragment_category"
+        tools:layout="@layout/fragment_category" />
+    <fragment
+        android:id="@+id/details_Fragment"
+        android:name="com.example.Amit.ui.fragment.details.Details_Fragment"
+        android:label="fragment_details_"
+        tools:layout="@layout/fragment_details_" />
+</navigation>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">LoginAndRegisterApi</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="category">Category</string>
+    <string name="cart">Cart</string>
+    <string name="profile">Profile</string>
+    <string name="details" />
+
+
+    <string name="create_new_acc_message" translatable="false">Create New Account</string>
+    <string name="userName" translatable="false">UserName</string>
+    <string name="email" translatable="false">Email</string>
+    <string name="pass" translatable="false">Password</string>
+    <string name="phone" translatable="false">Phone Number</string>
+    <string name="signUp_btn" translatable="false">Sign Up</string>
+    <string name="have_acc_message" translatable="false">Already have account ?</string>
+    <string name="dont_have_acc" translatable="false">Dont Have An account ?</string>
+    <string name="Login_page" translatable="false">Have an exsisting account </string>
+    <string name="Sign_in_btn" translatable="false">Sign In</string>
+</resources>
