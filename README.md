@@ -24,4 +24,7 @@
  - Java SE 
  - XML
  
- 
+ ## Platforms :
+ - Android Studio 
+ - PostMan
+ - Git
